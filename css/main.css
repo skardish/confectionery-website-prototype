@@ -18,8 +18,9 @@ html {
 
 .heading {
   background-color: #332c24;
-  border-top: 3px solid #756e66;
-  border-bottom: 3px solid #756e66;
+  border-top: 3px solid #d6cab6;
+  border-bottom: 3px solid #d6cab6;
+  padding: .5rem;
 }
 
 h1 {
@@ -48,4 +49,8 @@ nav a {
   text-decoration: none;
   text-align: center;
   border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #d6cab6;
 }
