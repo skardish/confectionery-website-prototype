@@ -16,6 +16,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .heading {
   background-color: #332c24;
   border-top: 3px solid #d6cab6;
