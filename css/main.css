@@ -54,3 +54,19 @@ nav a {
 nav a:hover {
   background-color: #d6cab6;
 }
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
+}
