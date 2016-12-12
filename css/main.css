@@ -157,6 +157,10 @@ img {
     vertical-align: middle;
   }
 
+  .card-img img {
+    width: 100px;
+  }
+
   .card-body h2 {
     margin-left: .75rem;
     margin-top: 0;
