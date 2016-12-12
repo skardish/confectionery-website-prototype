@@ -100,6 +100,17 @@ img {
   margin-top: 0;
 }
 
+.btn {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  border: 3px solid #222;
+  border-radius: 4px;
+  padding: 0.4em 0.75em 0.5em;
+}
+
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -156,6 +167,10 @@ img {
     line-height: 1.4;
   }
 
+  .grid img:nth-child(1) {
+    display: block;
+  }
+
   .card-body {
     display: block;
     width: 100%;
@@ -188,13 +203,13 @@ img {
     line-height: 1.5;
   }
 
-  img:nth-child(even) {
+  .grid img:nth-child(even) {
     display: inline-block;
     float: left;
     width: 25%;
   }
 
-  img:nth-child(odd) {
+  .grid img:nth-child(odd) {
     display: inline-block;
     float: right;
     width: 25%;
@@ -224,13 +239,13 @@ img {
     line-height: 1.5;
   }
 
-  img:nth-child(even) {
+  .grid img:nth-child(even) {
     display: inline-block;
     float: left;
     width: 25%;
   }
 
-  img:nth-child(odd) {
+  .grid img:nth-child(odd) {
     display: inline-block;
     float: right;
     width: 25%;
