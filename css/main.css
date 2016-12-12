@@ -67,7 +67,7 @@ img {
   width: 100%;
 }
 
-img:nth-child(odd) {
+.grid img:nth-child(odd) {
   display: none;
 }
 
