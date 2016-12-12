@@ -198,10 +198,6 @@ img {
     display: inline-block;
   }
 
-  .grid img:nth-child(1) {
-    display: block;
-  }
-
   .card-body {
     display: block;
     width: 100%;
