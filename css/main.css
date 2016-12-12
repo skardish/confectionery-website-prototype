@@ -141,6 +141,8 @@ img {
     display: inline-block;
     max-width: 20rem;
     margin-bottom: 1rem;
+    width: calc(90% - 50px);
+    vertical-align: middle;
   }
 
   .card {
@@ -150,7 +152,9 @@ img {
   .card-img {
     display: inline-block;
     width: 50px;
-    margin: .25rem;
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+    vertical-align: middle;
   }
 
   .card-body h2 {
