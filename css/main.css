@@ -189,6 +189,18 @@ img:nth-child(odd) {
     line-height: 1.5;
   }
 
+  img:nth-child(even) {
+    display: inline-block;
+    float: left;
+    width: 25%;
+  }
+
+  img:nth-child(odd) {
+    display: inline-block;
+    float: right;
+    width: 25%;
+  }
+
   .card-body {
     display: block;
     width: 100%;
@@ -211,6 +223,18 @@ img:nth-child(odd) {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
+    float: left;
+    width: 25%;
+  }
+
+  img:nth-child(odd) {
+    display: inline-block;
+    float: right;
+    width: 25%;
   }
 
   .card-body {
