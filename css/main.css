@@ -68,6 +68,36 @@ img {
   width: 100%;
 }
 
+.cards {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: .75rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-img img {
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body h2 {
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.card-body p {
+  margin-bottom: .5rem;
+  margin-top: 0;
+}
+
+
 @media only screen and (min-width: 25em) {
 
   html {
