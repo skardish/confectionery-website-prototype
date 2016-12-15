@@ -110,7 +110,16 @@ img {
   border-radius: 4px;
   padding: .4em .75em .5em;
   background-color: #756e66;
+  margin-bottom: 1rem;
+}
 
+.footer {
+  font-size: .75rem;
+  text-align: center;
+  background-color: #332c24;
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
