@@ -225,7 +225,6 @@ img {
     display: block;
     padding: 0;
     margin: .25rem;
-    white-space: nowrap;
     font-weight: bold;
   }
 
