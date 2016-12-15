@@ -68,6 +68,13 @@ img {
   width: 100%;
 }
 
+.card-img img {
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grid img:nth-child(odd) {
   display: none;
 }
@@ -81,13 +88,6 @@ img {
 .card {
   margin-top: .75rem;
   margin-bottom: 1.5rem;
-}
-
-.card-img img {
-  display: block;
-  width: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card-body h2 {
@@ -108,7 +108,7 @@ img {
   text-align: center;
   border: 3px solid #332c24;
   border-radius: 4px;
-  padding: 0.4em 0.75em 0.5em;
+  padding: .4em .75em .5em;
   background-color: #756e66;
 
 }
@@ -143,6 +143,7 @@ img {
     margin-bottom: 1rem;
     width: calc(90% - 50px);
     vertical-align: middle;
+    padding-top: 1.5rem;
   }
 
   .card {
@@ -155,6 +156,7 @@ img {
     margin-left: 1.5rem;
     padding-top: 1.5rem;
     vertical-align: middle;
+    padding-bottom: 1.5rem;
   }
 
   .card-img img {
@@ -165,14 +167,16 @@ img {
     margin-left: .75rem;
     margin-top: 0;
     margin-bottom: 0;
-    padding: .50rem;
+    padding: .5rem;
+    padding-left: 5rem;
   }
 
   .card-body p {
     margin-left: .75rem;
     margin-bottom: 0;
     margin-top: 0;
-    padding: .50rem;
+    padding: .5rem;
+    padding-left: 5rem;
   }
 
   .online {
@@ -182,7 +186,7 @@ img {
   }
 
   .online p {
-    padding-right: .50rem;
+    padding-right: .5rem;
   }
 
   .online-img {
