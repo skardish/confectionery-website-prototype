@@ -113,6 +113,26 @@ img {
   margin-bottom: 1rem;
 }
 
+.banner-content h2 {
+  position: absolute;
+  width: 50%;
+  bottom: .25rem;
+  left: .5rem;
+}
+
+.img-flex {
+  position: relative;
+  width: 100%;
+}
+
+.banner-content {
+  position: relative;
+}
+
+.banner p {
+  margin-left: .2rem;
+}
+
 footer {
   font-size: .75rem;
   text-align: center;
@@ -134,14 +154,14 @@ footer {
     display: block;
   }
 
-  img:nth-child(odd) {
+  .grid img:nth-child(odd) {
     display: inline-block;
     float: left;
     width: 50%;
   }
 
-  img:nth-child(even) {
-    display: inline-block;
+  .grid img:nth-child(even) {
+    display: none;
     float: right;
     width: 50%;
   }
@@ -213,6 +233,18 @@ footer {
 
   nav li {
     display: inline-block;
+  }
+
+  .grid img:nth-child(odd) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  .grid img:nth-child(even) {
+    display: inline-block;
+    float: right;
+    width: 50%;
   }
 
   .card-body {
