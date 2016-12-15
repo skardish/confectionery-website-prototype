@@ -154,6 +154,10 @@ footer {
     display: block;
   }
 
+  .card-img img {
+    width: 100px;
+  }
+
   .grid img:nth-child(odd) {
     display: inline-block;
     float: left;
@@ -186,10 +190,6 @@ footer {
     padding-top: 1.5rem;
     vertical-align: middle;
     padding-bottom: 1.5rem;
-  }
-
-  .card-img img {
-    width: 100px;
   }
 
   .card-body h2 {
