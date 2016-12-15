@@ -88,17 +88,24 @@ img {
 .card {
   margin-top: .75rem;
   margin-bottom: 1.5rem;
+  vertical-align: top;
 }
 
 .card-body h2 {
   font-weight: normal;
   margin-top: 1rem;
   margin-bottom: 0;
+  vertical-align: middle;
 }
 
 .card-body p {
   margin-bottom: .5rem;
   margin-top: 0;
+  vertical-align: middle;
+}
+
+.card-img {
+  vertical-align: middle;
 }
 
 .btn {
@@ -264,6 +271,7 @@ footer {
   .card-img {
     display: block;
     padding: 0;
+    padding-top: 1rem;
   }
 
   .card-body h2 {
@@ -279,6 +287,7 @@ footer {
     padding: 0;
     margin-bottom: .75rem;
     margin-left: 1rem;
+    padding-bottom: 1rem;
   }
 
 }
