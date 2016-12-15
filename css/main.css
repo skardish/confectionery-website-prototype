@@ -94,12 +94,22 @@ img {
   font-weight: normal;
   margin-top: 1rem;
   margin-bottom: 0;
-  font-weight: bold;
 }
 
 .card-body p {
   margin-bottom: .5rem;
   margin-top: 0;
+}
+
+.img-flex {
+  position: relative;
+  width: 100%;
+}
+
+.online-img {
+  position: relative;
+  width: 50%;
+  margin-left: 4rem;
 }
 
 .btn {
