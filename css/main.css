@@ -143,6 +143,11 @@ footer {
   clear: both;
 }
 
+.online-img {
+  width: 100%;
+}
+
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -193,7 +198,8 @@ footer {
   }
 
   .card-body h2 {
-    margin-left: .75rem;
+    display: inline-block;
+    margin-left: 1rem;
     margin-top: 0;
     margin-bottom: 0;
     padding: .5rem;
@@ -201,7 +207,8 @@ footer {
   }
 
   .card-body p {
-    margin-left: .75rem;
+    display: inline-block;
+    margin-left: 1rem;
     margin-bottom: 0;
     margin-top: 0;
     padding: .5rem;
@@ -216,10 +223,6 @@ footer {
 
   .online p {
     padding-right: .5rem;
-  }
-
-  .online-img {
-    margin-top: 4.5rem;
   }
 
 }
@@ -268,16 +271,14 @@ footer {
     padding: 0;
     margin: .25rem;
     font-weight: bold;
+    margin-left: 1rem;
   }
 
   .card-body p {
     margin: .25rem;
     padding: 0;
     margin-bottom: .75rem;
-  }
-
-  .online-img {
-    margin-top: 3rem;
+    margin-left: 1rem;
   }
 
 }
